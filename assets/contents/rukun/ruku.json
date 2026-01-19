@@ -1,0 +1,59 @@
+{
+    "id": "ruku",
+    "order": 5,
+    "title": "Ruku",
+    "subtitle": "Membungkuk dan tenang sejenak (tuma’ninah)",
+    "inti": {
+        "summary": "Ruku adalah membungkukkan badan setelah berdiri dan membaca. Pastikan tenang sejenak.",
+        "poinPenting": [
+            "Badan membungkuk dengan stabil",
+            "Tahan 1–2 detik (tuma’ninah)",
+            "Lanjut i’tidal setelah tenang"
+        ],
+        "kesalahanUmum": [
+            "Terlalu cepat",
+            "Membungkuk sebentar lalu langsung naik"
+        ],
+        "recitationIds": []
+    },
+    "sunnah": {
+        "note": "Opsional untuk menambah kesempurnaan.",
+        "items": [
+            {
+                "title": "Contoh sunnah",
+                "description": "Isi sesuai kebutuhan rukun ini."
+            }
+        ]
+    },
+    "media": {
+        "type": "lottie",
+        "assetPath": "assets/media/rukun/ruku.lottie",
+        "aspectRatio": 1.0
+    },
+    "practice": {
+        "steps": [
+            "Lihat animasi ruku.",
+            "Coba gerakan ruku pelan-pelan.",
+            "Tahan 1–2 detik sebelum berdiri lagi."
+        ]
+    },
+    "correction": {
+        "enabled": true,
+        "poseType": "ruku",
+        "minHoldMs": 1500,
+        "thresholds": {
+            "torsoAngleDegMin": 35,
+            "torsoAngleDegMax": 75
+        },
+        "setupTips": [
+            "Letakkan HP setinggi pinggang",
+            "Jarak 2–3 meter",
+            "Pastikan badan terlihat penuh"
+        ],
+        "feedback": {
+            "notDetected": "Belum terdeteksi. Coba geser posisi ya.",
+            "holdMore": "Bagus, coba tahan sedikit lebih lama ya.",
+            "success": "Mantap! Tuma’ninah sudah cukup."
+        }
+    }
+}

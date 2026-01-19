@@ -1,0 +1,89 @@
+{
+    "version": 1,
+    "items": [
+        {
+            "id": "niat",
+            "order": 1,
+            "title": "Niat (di hati)",
+            "subtitle": "Menetapkan sholat yang dikerjakan",
+            "hasCamera": false
+        },
+        {
+            "id": "takbir",
+            "order": 2,
+            "title": "Takbiratul Ihram",
+            "subtitle": "Memulai sholat",
+            "hasCamera": true
+        },
+        {
+            "id": "qiyam",
+            "order": 3,
+            "title": "Berdiri (Qiyam)",
+            "subtitle": "Jika mampu",
+            "hasCamera": true
+        },
+        {
+            "id": "alfatihah",
+            "order": 4,
+            "title": "Membaca Al-Fatihah",
+            "subtitle": "Tiap rakaat",
+            "hasCamera": false
+        },
+        {
+            "id": "ruku",
+            "order": 5,
+            "title": "Ruku",
+            "subtitle": "Membungkuk dan tenang (tuma’ninah)",
+            "hasCamera": true
+        },
+        {
+            "id": "itidal",
+            "order": 6,
+            "title": "I’tidal",
+            "subtitle": "Bangkit dan tenang (tuma’ninah)",
+            "hasCamera": true
+        },
+        {
+            "id": "sujud",
+            "order": 7,
+            "title": "Sujud",
+            "subtitle": "Sujud dan tenang (tuma’ninah)",
+            "hasCamera": true
+        },
+        {
+            "id": "duduk_antara_sujud",
+            "order": 8,
+            "title": "Duduk antara dua sujud",
+            "subtitle": "Duduk dan tenang (tuma’ninah)",
+            "hasCamera": true
+        },
+        {
+            "id": "tasyahhud_akhir",
+            "order": 9,
+            "title": "Tasyahhud akhir",
+            "subtitle": "Bacaan akhir",
+            "hasCamera": false
+        },
+        {
+            "id": "duduk_tasyahhud_akhir",
+            "order": 10,
+            "title": "Duduk tasyahhud akhir",
+            "subtitle": "Posisi duduk terakhir",
+            "hasCamera": true
+        },
+        {
+            "id": "salam",
+            "order": 11,
+            "title": "Salam",
+            "subtitle": "Mengakhiri sholat",
+            "hasCamera": true
+        },
+        {
+            "id": "tertib",
+            "order": 12,
+            "title": "Tertib",
+            "subtitle": "Berurutan",
+            "hasCamera": false
+        }
+    ]
+}
