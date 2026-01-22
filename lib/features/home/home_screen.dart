@@ -13,12 +13,12 @@ class HomeScreen extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             ElevatedButton(
-              onPressed: () => context.go('/rukun'),
+              onPressed: () => context.push('/rukun'),
               child: const Text('Mulai dari Rukun'),
             ),
             const SizedBox(height: 12),
             TextButton(
-              onPressed: () => context.go('/settings'),
+              onPressed: () => context.push('/settings'),
               child: const Text('Settings'),
             ),
           ],
