@@ -33,7 +33,11 @@ class _RukunDetailScreenState extends ConsumerState<RukunDetailScreen>
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Rukun'),
+        title: Text('Detail Gerakan'),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back_ios),
+          onPressed: () => context.pop(),
+        ),
         bottom: TabBar(
           controller: _tab,
           tabs: const [

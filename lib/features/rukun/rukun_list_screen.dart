@@ -30,7 +30,7 @@ class RukunListScreen extends ConsumerWidget {
                 title: Text(title),
                 subtitle: Text(subtitle),
                 trailing: const Icon(Icons.chevron_right),
-                onTap: () => context.go('/rukun/$id'),
+                onTap: () => context.push('/rukun/$id'),
               );
             },
           );
