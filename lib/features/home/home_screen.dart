@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 12),
             TextButton(
-              onPressed: () => context.go('/settings'),
+              onPressed: () => context.push('/settings'),
               child: const Text('Settings'),
             ),
           ],
